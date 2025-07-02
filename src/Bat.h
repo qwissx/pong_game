@@ -14,7 +14,7 @@ class Bat {
         bool m_MovingLeft = true;
     public:
         Bat(float startX, float startY);
-        FloatRect getPosition();
+        Vector2f getPosition();
         RectangleShape getShape();
         void moveLeft();
         void moveRight();

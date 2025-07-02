@@ -5,8 +5,8 @@ Bat::Bat(float startX, float startY) : m_Position(startX, startY) {
     m_Shape.setPosition(m_Position);
 }
 
-FloatRect Bat::getPosition() {
-    return m_Shape.getGlobalBounds();
+Vector2f Bat::getPosition() {
+    return m_Shape.getPosition();
 }
 
 RectangleShape Bat::getShape() {
