@@ -1,0 +1,2 @@
+int generatePosInteger();
+int generateInteger();

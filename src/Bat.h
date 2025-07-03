@@ -15,6 +15,7 @@ class Bat {
     public:
         Bat(float startX, float startY);
         Vector2f getPosition();
+        FloatRect getBounds();
         RectangleShape getShape();
         void moveLeft();
         void moveRight();

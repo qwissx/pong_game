@@ -9,6 +9,10 @@ Vector2f Bat::getPosition() {
     return m_Shape.getPosition();
 }
 
+FloatRect Bat::getBounds() {
+    return m_Shape.getGlobalBounds();
+}
+
 RectangleShape Bat::getShape() {
     return m_Shape;
 }
